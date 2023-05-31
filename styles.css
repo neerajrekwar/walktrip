@@ -1,3 +1,8 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 * {
   font-family: 'Alata', sans-serif;
 }
@@ -35,4 +40,17 @@ a {
 a:hover {
   background-color: #333;
   color: #fff;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.info-box{
+  border: 2px solid greenyellow;
+  display: inline;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
 }
