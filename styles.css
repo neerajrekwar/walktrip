@@ -12,7 +12,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+header{
+  border: 2px solid palegreen;
+}
 nav {
   background-color: #f2f2f2;
   padding: 10px;
@@ -40,6 +42,9 @@ a {
 a:hover {
   background-color: #5fd36c;
   color: #fff;
+}
+main{
+  border: 2px solid lawngreen;
 }
 footer{
   display: flex;
