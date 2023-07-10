@@ -59,3 +59,8 @@ footer{
   align-content: center;
   align-items: center;
 }
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    max-width: 100%;
+    margin: auto;
+  }
