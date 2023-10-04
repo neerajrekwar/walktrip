@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Alata', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  /* border: 2px solid palegreen; */
+  
+}
+nav ul {
+  /* background-color: #f2f2f2; */
+
+  display: inline-flex;
+  justify-items: center;
+  /* border: 2px solid palegreen; */
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li .link {
+text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  /* display: inline-block; */
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #5fd36c;
+  color: #fff;
+}
+main{
+  /* border: 2px solid lawngreen; */
+}
+footer{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.info-box{
+  /* border: 2px solid greenyellow; */
+  display: inline;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    max-width: 100%;
+    margin: auto;
+  }
+
+/* Default styles for all screen sizes */
+body {
+  font-size: 16px;
+}
+
+/* Responsive styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  /* You can add additional styles for smaller screens here */
+}
+
+/* Responsive styles for screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  /* You can add additional styles for medium-sized screens here */
+}
+
+/* Responsive styles for screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 20px;
+  }
+  /* You can add additional styles for larger screens here */
+}
