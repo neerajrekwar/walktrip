@@ -67,3 +67,32 @@ footer{
     max-width: 100%;
     margin: auto;
   }
+
+/* Default styles for all screen sizes */
+body {
+  font-size: 16px;
+}
+
+/* Responsive styles for screens smaller than 768px (e.g., smartphones) */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  /* You can add additional styles for smaller screens here */
+}
+
+/* Responsive styles for screens between 768px and 1024px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+  /* You can add additional styles for medium-sized screens here */
+}
+
+/* Responsive styles for screens larger than 1024px (e.g., desktops) */
+@media (min-width: 1025px) {
+  body {
+    font-size: 20px;
+  }
+  /* You can add additional styles for larger screens here */
+}
